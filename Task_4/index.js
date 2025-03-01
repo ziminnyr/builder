@@ -1,4 +1,5 @@
-import 'index.css';
+import './index.css';
+import IMAGE from './assets/Spotify_logo.jpg';
 
 console.log('Hello World!');
 
@@ -8,7 +9,7 @@ const h1 = document.createElement('h1')
 h1.textContent = 'I love JavaScript';
 document.body.append(h1)
 
-const IMAGE = '/assets/Spotify_logo.jpg'
+// const IMAGE = '/assets/Spotify_logo.jpg'
 const img = document.createElement('img')
 img.src = IMAGE
 document.body.append(img)
